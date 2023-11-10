@@ -7,6 +7,7 @@ from PIL import Image
 import base64
 
 app = dash.Dash(__name__)
+server = app.server
 
 # Initialize Roboflow
 rf = Roboflow(api_key="lyM2cd6zGDHzF4feo6T0")
