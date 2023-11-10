@@ -1,0 +1,29 @@
+Local model deployment
+
+One approach to deploying a deep learning model for a tea plantation farm is to deploy the model locally on each farm. This approach has a number of advantages, including:
+
+It is less latency-sensitive, since the model is running on the farm itself.
+It is more secure, since the model data is not being transmitted over a network.
+It is more scalable, since each farm can have its own model instance.
+However, there are also some disadvantages to local model deployment, including:
+
+It is more complex to manage, since each farm needs to have its own model instance.
+It can be more expensive, since each farm needs to have its own computing resources.
+
+Global model deployment
+
+Another approach to deploying a deep learning model for a tea plantation farm is to deploy the model globally to a central server. This approach has a number of advantages, including:
+
+It is less complex to manage, since there is only one model instance that needs to be managed.
+It can be less expensive, since the computing resources can be shared by all of the farms.
+However, there are also some disadvantages to global model deployment, including:
+
+It is more latency-sensitive, since the model predictions need to be transmitted over a network.
+It is less secure, since the model data is being transmitted over a network.
+It is less scalable, since the central server may become overloaded if there are too many farms using the model.
+Hybrid model deployment
+
+A hybrid approach to deep learning deployment is to deploy the model both locally and globally. This approach combines the advantages of both local and global model deployment.
+
+In a hybrid model deployment, the local model can be used to make predictions quickly and to provide a fallback option in case the global model is unavailable. The global model can be used to fine-tune the local models and to ensure that all of the farms are using the same model weights.
+Using Federated Learning. 
